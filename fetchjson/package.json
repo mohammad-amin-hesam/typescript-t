@@ -1,0 +1,13 @@
+{
+  "name": "fetchjson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc index.ts",
+    "run-ts": "ts-node index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
