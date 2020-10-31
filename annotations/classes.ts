@@ -7,7 +7,6 @@ class Vehicle {
 }
 
 const vehicle = new Vehicle('orange');
-console.log(vehicle.color);
 
 class Car extends Vehicle {
   constructor(public wheels: number, color: string) {
